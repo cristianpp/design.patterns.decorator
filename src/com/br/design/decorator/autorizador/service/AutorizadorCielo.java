@@ -1,12 +1,12 @@
-package com.br.design.decorator.pagamento.service;
+package com.br.design.decorator.autorizador.service;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 import java.math.BigDecimal;
 
-import com.br.design.decorator.pagamento.model.CartaoCredito;
-import com.br.design.decorator.pagamento.model.Cliente;
+import com.br.design.decorator.autorizador.model.CartaoCredito;
+import com.br.design.decorator.autorizador.model.Cliente;
 
 public class AutorizadorCielo implements AutorizadorCartaoCredito{
 

@@ -1,4 +1,4 @@
-package com.br.design.decorator.pagamento.model;
+package com.br.design.decorator.autorizador.model;
 
 import java.time.YearMonth;
 

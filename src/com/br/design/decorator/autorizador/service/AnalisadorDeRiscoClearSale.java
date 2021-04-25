@@ -1,11 +1,11 @@
-package com.br.design.decorator.pagamento.service;
+package com.br.design.decorator.autorizador.service;
 
 import java.math.BigDecimal;
 import java.time.YearMonth;
 
-import com.br.design.decorator.pagamento.exception.RiscoCreditoException;
-import com.br.design.decorator.pagamento.model.CartaoCredito;
-import com.br.design.decorator.pagamento.model.Cliente;
+import com.br.design.decorator.autorizador.exception.RiscoCreditoException;
+import com.br.design.decorator.autorizador.model.CartaoCredito;
+import com.br.design.decorator.autorizador.model.Cliente;
 
 public class AnalisadorDeRiscoClearSale implements AutorizadorCartaoCredito {
 

@@ -1,16 +1,16 @@
-package com.br.design.decorator.pagamento.test;
+package com.br.design.decorator.autorizador.test;
 
 import java.math.BigDecimal;
 import java.time.YearMonth;
 import java.util.Scanner;
 
-import com.br.design.decorator.pagamento.model.CartaoCredito;
-import com.br.design.decorator.pagamento.model.Cliente;
-import com.br.design.decorator.pagamento.service.AnalisadorDeRiscoClearSale;
-import com.br.design.decorator.pagamento.service.AutorizadorCartaoCredito;
-import com.br.design.decorator.pagamento.service.AutorizadorCielo;
+import com.br.design.decorator.autorizador.model.CartaoCredito;
+import com.br.design.decorator.autorizador.model.Cliente;
+import com.br.design.decorator.autorizador.service.AnalisadorDeRiscoClearSale;
+import com.br.design.decorator.autorizador.service.AutorizadorCartaoCredito;
+import com.br.design.decorator.autorizador.service.AutorizadorCielo;
 
-public class TestPagamento {
+public class TestAutorizador {
 
 	public static void main(String[] args) {
 

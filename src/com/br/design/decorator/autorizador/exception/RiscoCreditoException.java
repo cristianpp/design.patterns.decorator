@@ -1,4 +1,4 @@
-package com.br.design.decorator.pagamento.exception;
+package com.br.design.decorator.autorizador.exception;
 
 public class RiscoCreditoException extends RuntimeException {
 	
